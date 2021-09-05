@@ -1,4 +1,5 @@
 <h4>Approach</h4>
+<p>Page object model implementation using Selenium web driver to control the browser and NUnit for the test execution framework. The website pages are represented as C# pages where the repetative part (the stuff that appears on more than one page) is described in the BasePage.cs. Helpers class that holds common stuff that is called throughout the different tests.</p> 
 
 <h4>Instructions to run tests</h4>
 
