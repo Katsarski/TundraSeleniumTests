@@ -8,7 +8,7 @@ namespace TundraSeleniumTests
     public class Tests
     {
         IWebDriver driver;
-        
+
 
         [SetUp]
         public void Setup()
@@ -60,6 +60,12 @@ namespace TundraSeleniumTests
             ProductDetailsPage productDetailsPage = new ProductDetailsPage(driver);
             productDetailsPage.AddProductToCart();
             basePage.VerifyAmountOfCartItemsIsCorrect(1);
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            driver.Quit();
         }
     }
 }
