@@ -10,3 +10,4 @@ Visual Studio community
 2. Right click on project and select Rebuild
 3. Open test explorer -> Test from the Visual Studio menu -> Test Explorer
 4. Click on Run All Tests In View -> available in the test explorer window
+[Image instructions](docs/selenium.png)
