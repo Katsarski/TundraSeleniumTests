@@ -28,10 +28,10 @@ namespace TundraSeleniumTests
             basePage.VerifyPageElementsArePresent();
             Helpers.Helpers.ScrollToBottomOfPage(driver);
             productsPage.WaitForLoadingSpinnerToDisappear();
-            Assert.AreEqual(45, productsPage.GetTotalAmountOfProductsOnPage());
+            Assert.AreEqual(30, productsPage.GetTotalAmountOfProductsOnPage());
             Helpers.Helpers.ScrollToBottomOfPage(driver);
             productsPage.WaitForLoadingSpinnerToDisappear();
-            Assert.AreEqual(75, productsPage.GetTotalAmountOfProductsOnPage());
+            Assert.AreEqual(45, productsPage.GetTotalAmountOfProductsOnPage());
         }
         [Test]
         public void Navigate_To_Products_Page_Verify_Each_Loaded_Product_Has_Name()
