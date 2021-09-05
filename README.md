@@ -3,6 +3,7 @@ Approach
 Instructions to run tests
 
 Requirements
+Firefox web browser
 Visual Studio community
 .NET Core 3.1
 
